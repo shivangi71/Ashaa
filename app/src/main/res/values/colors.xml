@@ -1,0 +1,7 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="soft_pink">#FFF0F5</color>
+    <color name="hot_pink">#FF69B4</color>
+    <color name="dark_pink">#C71585</color>
+</resources>

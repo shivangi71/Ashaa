@@ -51,6 +51,9 @@ dependencies {
 
     // ✨ YEH LINE ADD KARDI HAI (Icons ke liye)
     implementation("androidx.compose.material:material-icons-extended:1.7.0")
+    implementation("org.tensorflow:tensorflow-lite-task-audio:0.4.0")
+    // Support library (optional but recommended)
+    implementation("org.tensorflow:tensorflow-lite-support:0.4.4")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

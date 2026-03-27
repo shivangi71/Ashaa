@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -49,12 +50,16 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
 
-    // ✨ YEH LINE ADD KARDI HAI (Icons ke liye)
+    //  YEH LINE ADD KARDI HAI (Icons ke liye)
     implementation("androidx.compose.material:material-icons-extended:1.7.0")
     implementation("org.tensorflow:tensorflow-lite-task-audio:0.4.0")
     // Support library (optional but recommended)
     implementation("org.tensorflow:tensorflow-lite-support:0.4.4")
-
+    implementation("androidx.biometric:biometric:1.2.0-alpha05")
+    implementation("androidx.biometric:biometric:1.1.0")
+    implementation("androidx.compose.material3:material3:1.2.0") // Latest version for tonalElevation
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
+    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

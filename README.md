@@ -1,10 +1,10 @@
 # Ashaa: Empowering Safety through Intelligent Automation
-A smart personal safety application that speaks for you when you can't.
-Ashaa is designed to bridge the gap in emergency response. Instead of relying on manual SOS triggers, 
-it uses real-time sensor data and voice recognition to detect distress automatically.
-Whether it’s a high-frequency scream or a specific shake pattern, Ashaa ensures help is notified instantly.
+ A smart personal safety application that speaks for you when you can't.
+ Ashaa is designed to bridge the gap in emergency response. Instead of relying on manual SOS triggers, 
+ it uses real-time sensor data and voice recognition to detect distress automatically.
+ Whether it’s a high-frequency scream or a specific shake pattern, Ashaa ensures help is notified instantly.
 Key Features:
-Voice Guard (AI): Uses a TensorFlow Lite (YAMNet) model to classify audio in real-time. It recognizes high-pitched screams and shouts with a 0.10f sensitivity threshold.
+ Voice Guard (AI): Uses a TensorFlow Lite (YAMNet) model to classify audio in real-time. It recognizes high-pitched screams and shouts with a 0.10f sensitivity      threshold.
 
  Motion SOS: Integrated Accelerometer monitoring detects specific "Shake-to-SOS" patterns, ideal for situations where the screen is inaccessible.
 
@@ -18,6 +18,7 @@ Voice Guard (AI): Uses a TensorFlow Lite (YAMNet) model to classify audio in rea
 
 Tech Stack:
 Environment: Andoid Studio
+
 Language: Kotlin / JAVA
 
 UI Framework: Jetpack Compose (Modern Declarative UI)

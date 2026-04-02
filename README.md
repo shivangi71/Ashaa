@@ -16,7 +16,7 @@ Voice Guard (AI): Uses a TensorFlow Lite (YAMNet) model to classify audio in rea
 
  Evidence Logging: Automatically records background audio and saves it as an encrypted .mp3 for legal evidence.
 
-Tech Stack
+Tech Stack:
 Language: Kotlin / JAVA
 
 UI Framework: Jetpack Compose (Modern Declarative UI)

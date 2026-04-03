@@ -51,7 +51,7 @@ DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
 # Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD="maximum"
 
-warn () {
+warn () {    
     echo "$*"
 }
 

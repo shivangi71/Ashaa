@@ -12,15 +12,15 @@
 
  **Voice Guard (AI):** Uses a TensorFlow Lite (YAMNet) model to classify audio in real-time. It recognizes high-pitched screams and shouts with a 0.10f sensitivity      threshold.
 
-** Motion SOS:** Integrated Accelerometer monitoring detects specific "Shake-to-SOS" patterns, ideal for situations where the screen is inaccessible.
+**Motion SOS:** Integrated Accelerometer monitoring detects specific "Shake-to-SOS" patterns, ideal for situations where the screen is inaccessible.
 
-** Smart Panic:** A BroadcastReceiver monitors physical button patterns. Pressing the Power Button 3 times instantly triggers the SOS sequence.
+**Smart Panic:** A BroadcastReceiver monitors physical button patterns. Pressing the Power Button 3 times instantly triggers the SOS sequence.
 
  **Silent Sentinel:** A unique fail-safe that triggers an alert if the device is forced to Shutdown, sending the last known location before the power cuts off.
 
-** Emergency Network:** Automatically maps the nearest Police Stations and Safe Havens (Hospitals/Pharmacies) via Google Places API.
+**Emergency Network:** Automatically maps the nearest Police Stations and Safe Havens (Hospitals/Pharmacies) via Google Places API.
 
- Evidence Logging: Automatically records background audio and saves it as an encrypted .mp3 for legal evidence.
+ **Evidence Logging:** Automatically records background audio and saves it as an encrypted .mp3 for legal evidence.
 
 Tech Stack:
 Environment: Andoid Studio

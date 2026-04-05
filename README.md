@@ -40,10 +40,10 @@
 
  **How It Works (Architecture):**
  
-**Monitoring:** The app runs a persistent Foreground Service that listens to the Mic, Accelerometer, and System Intents.
-
-**Detection:**  If a scream or shake is detected, the Safe-Check Dialog (System Overlay) pops up.
-
-Verification: A 15-second countdown begins. If the user doesn't press "I'M SAFE," the SOS initiates.
-
-Action: The app fetches GPS Coordinates, starts Audio Recording, sends an SOS SMS to contacts, and places an Automated Call.
+   **Monitoring:** The app runs a persistent Foreground Service that listens to the Mic, Accelerometer, and System Intents.
+   
+   **Detection:**  If a scream or shake is detected, the Safe-Check Dialog (System Overlay) pops up.
+   
+   **Verification:** A 15-second countdown begins. If the user doesn't press "I'M SAFE," the SOS initiates.
+   
+   **Action:** The app fetches GPS Coordinates, starts Audio Recording, sends an SOS SMS to contacts, and places an Automated Call.

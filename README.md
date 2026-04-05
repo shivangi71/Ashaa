@@ -40,7 +40,7 @@
 
  **How It Works (Architecture):**
  
-Monitoring: The app runs a persistent Foreground Service that listens to the Mic, Accelerometer, and System Intents.
+**Monitoring:** The app runs a persistent Foreground Service that listens to the Mic, Accelerometer, and System Intents.
 
 **Detection:**  If a scream or shake is detected, the Safe-Check Dialog (System Overlay) pops up.
 

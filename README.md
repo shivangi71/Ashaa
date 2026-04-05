@@ -14,7 +14,7 @@
 
 ** Motion SOS:** Integrated Accelerometer monitoring detects specific "Shake-to-SOS" patterns, ideal for situations where the screen is inaccessible.
 
- Smart Panic: A BroadcastReceiver monitors physical button patterns. Pressing the Power Button 3 times instantly triggers the SOS sequence.
+** Smart Panic:** A BroadcastReceiver monitors physical button patterns. Pressing the Power Button 3 times instantly triggers the SOS sequence.
 
  Silent Sentinel: A unique fail-safe that triggers an alert if the device is forced to Shutdown, sending the last known location before the power cuts off.
 

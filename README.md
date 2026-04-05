@@ -26,7 +26,7 @@
 
    **Environment:** Andoid Studio
    
-   Language: Kotlin / JAVA
+  ** Language:** Kotlin / JAVA
    
    UI Framework: Jetpack Compose (Modern Declarative UI)
    

@@ -26,17 +26,17 @@
 
    **Environment:** Andoid Studio
    
-  ** Language:** Kotlin / JAVA
+  **Language:** Kotlin / JAVA
    
-  ** UI Framework:**Jetpack Compose (Modern Declarative UI)
+  **UI Framework:** Jetpack Compose (Modern Declarative UI)
    
-   AI/ML: TensorFlow Lite (YAMNet Audio Classification: Recognize 521+ voices)
+   **AI/ML:** TensorFlow Lite (YAMNet Audio Classification: Recognize 521+ voices)
    
-   Backend: Firebase Realtime Database
+  **Backend:** Firebase Realtime Database
    
-   Architecture: MVVM (Model-View-ViewModel)
+   **Architecture:** MVVM (Model-View-ViewModel)
    
-   Android Core: Foreground Services, Broadcast Receivers, System Overlays.
+   **Android Core:** Foreground Services, Broadcast Receivers, System Overlays.
 
  How It Works (Architecture)
 Monitoring: The app runs a persistent Foreground Service that listens to the Mic, Accelerometer, and System Intents.

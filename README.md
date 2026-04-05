@@ -22,20 +22,21 @@
 
  **Evidence Logging:** Automatically records background audio and saves it as an encrypted .mp3 for legal evidence.
 
-Tech Stack:
-Environment: Andoid Studio
+**Tech Stack:**
 
-Language: Kotlin / JAVA
-
-UI Framework: Jetpack Compose (Modern Declarative UI)
-
-AI/ML: TensorFlow Lite (YAMNet Audio Classification: Recognize 521+ voices)
-
-Backend: Firebase Realtime Database
-
-Architecture: MVVM (Model-View-ViewModel)
-
-Android Core: Foreground Services, Broadcast Receivers, System Overlays.
+   **Environment:** Andoid Studio
+   
+   Language: Kotlin / JAVA
+   
+   UI Framework: Jetpack Compose (Modern Declarative UI)
+   
+   AI/ML: TensorFlow Lite (YAMNet Audio Classification: Recognize 521+ voices)
+   
+   Backend: Firebase Realtime Database
+   
+   Architecture: MVVM (Model-View-ViewModel)
+   
+   Android Core: Foreground Services, Broadcast Receivers, System Overlays.
 
  How It Works (Architecture)
 Monitoring: The app runs a persistent Foreground Service that listens to the Mic, Accelerometer, and System Intents.

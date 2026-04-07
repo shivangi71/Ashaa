@@ -6,7 +6,7 @@
  
  it uses real-time sensor data and voice recognition to detect distress automatically.
  
- Whether it’s a high-frequency scream or a specific shake pattern, Ashaa ensures help is notified instantly.
+ Whether it’s a high-frequency scream or a specific shake pattern, Ashaa app ensures help is notified instantly.
  
 **Key Features:**
 

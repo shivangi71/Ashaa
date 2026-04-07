@@ -1,4 +1,4 @@
-# ASHA: Empowering Safety through Intelligent Automation
+# ASHAA: Empowering Safety through Intelligent Automation
 
  A smart personal safety application that speaks for you when you can't. 
   

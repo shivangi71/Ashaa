@@ -1,4 +1,4 @@
-# ASH: Empowering Safety through Intelligent Automation
+# ASHA: Empowering Safety through Intelligent Automation
 
  A smart personal safety application that speaks for you when you can't. 
   

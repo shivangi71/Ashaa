@@ -21,7 +21,6 @@
  **Evidence Logging:** Automatically records background audio and saves it as an encrypted .mp3 for legal evidence.
 
 **Tech Stack:**
-
    **Environment:** Andoid Studio
    
   **Language:** Kotlin / JAVA

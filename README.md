@@ -27,7 +27,7 @@
    
   **UI Framework:** Jetpack Compose (Modern Declarative UI)
        
-   **AI/ML:** TensorFlow Lite (YAMNet Audio Classification: Recognize 521+ voices)
+   **AI/ML:** TensorFlow Lite (YAMNet Audio Classification: Recognize 521+ voices) 
    
   **Backend:** Firebase Realtime Database 
    

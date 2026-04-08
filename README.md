@@ -10,7 +10,7 @@
 
  **Voice Guard (AI):** Uses a TensorFlow Lite (YAMNet) model to classify audio in real-time. It recognizes high-pitched screams and shouts with a 0.10f sensitivity threshold.
                              
-**Motion SOS:** Integrated Accelerometer monitoring detects specific "Shake-to-SOS" patterns , ideal for situations where the screen is inaccessible.
+**Motion SOS:** Integrated Accelerometer monitoring detects specific "Shake-to-SOS" patterns , ideal for situations where the screen is inaccessible. 
   
 **Smart Panic:** A BroadcastReceiver monitors physical button patterns. Pressing the side Power Button 3 times instantly triggers the SOS sequence.
 

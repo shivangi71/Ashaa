@@ -29,7 +29,7 @@
        
    **AI/ML:** TensorFlow Lite (YAMNet Audio Classification: Recognize 521+ voices)
    
-  **Backend:** Firebase Realtime Database
+  **Backend:** Firebase Realtime Database 
    
    **Architecture:** MVVM (Model-View-ViewModel) 
    

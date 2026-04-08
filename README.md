@@ -8,7 +8,7 @@
  
 **4 Key Features:**
 
- **Voice Guard (AI):** Uses a TensorFlow Lite (YAMNet) model to classify audio in real-time. It recognizes high-pitched screams and shouts with a 0.10f sensitivity threshold.
+ **Voice Guard (AI):** Uses a TensorFlow Lite (YAMNet) model to classify audio in real-time. It recognizes high-pitched screams and shouts with a 0.10f sensitivity threshold. 
                              
 **Motion SOS:** Integrated Accelerometer monitoring detects specific "Shake-to-SOS" patterns , ideal for situations where the screen is inaccessible.
   

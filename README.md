@@ -31,7 +31,7 @@
    
   **Backend:** Firebase Realtime Database
    
-   **Architecture:** MVVM (Model-View-ViewModel)
+   **Architecture:** MVVM (Model-View-ViewModel) 
    
    **Android Core:** Foreground Services, Broadcast Receivers, System Overlays.
 

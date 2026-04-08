@@ -4,7 +4,7 @@
   
  Ashaa is designed to bridge the gap in emergency response. Instead of relying on manual SOS triggers, it uses real-time sensor data and voice recognition to detect distress automatically. 
  
- Whether it’s a high-frequency scream or a specific shake pattern, Ashaa app ensures help is notified instantly. 
+ Whether it’s a high-frequency scream or a specific shake pattern, Ashaa app ensures help is notified instantly.  
  
 **4 Key Features:**
 

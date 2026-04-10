@@ -18,7 +18,7 @@
 
 **Emergency Network:** Automatically maps the nearest Police Stations and Safe Havens (Hospitals/Pharmacies) via Google Places API.
 
- **Evidence Logging:** Automatically records background audio and saves it as an encrypted .mp3 for legal evidence.
+ **Evidence Logging:** Automatically records background audio and saves it as an encrypted .mp3 for legal evidence. 
 
 **Tech Stack:**
    **Environment:** Andoid Studio

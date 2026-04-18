@@ -16,7 +16,7 @@
 **Smart Panic:** A BroadcastReceiver monitors physical button patterns. Pressing the side Power Button 3 times instantly triggers the SOS sequence.   
 
  **Silent Sentinel:** A unique fail-safe that triggers an alert if the device is forced to Shutdown, sending the last known location before the power cuts off.  
-
+   
 **Emergency Network:** Automatically maps the nearest Police Stations and Safe Havens (Hospitals/Pharmacies) via Google Places API.   
 
  **Evidence Logging:** Automatically records background audio and saves it as an encrypted .mp3 for legal evidence. 

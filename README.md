@@ -2,7 +2,7 @@
   
  A smart personal safety application that speaks for you when you can't. 
      
- Ashaa is designed to bridge the gap in emergency response. Instead of relying on manual SOS triggers, it uses real-time sensor data and voice recognition to detect distress automatically.                                          
+ Ashaa is designed to bridge the gap in emergency response. Instead of relying on manual SOS triggers, it uses real-time sensor data and voice recognition to detect distress automatically.                                            
  
  Whether it’s a high-frequency scream or a specific shake pattern, Ashaa app ensures help is notified instantly.           
   

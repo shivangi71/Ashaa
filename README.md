@@ -1,83 +1,66 @@
+**ASHAA: AI-Powered Zero-Touch Women Safety System** 
+ASHAA is an AI-powered proactive digital guardian designed to provide emergency assistance without any manual interaction in real-life danger situations.
+The project is specifically built for scenarios where a user may be unable to unlock their phone or call for help due to panic or physical restraint.
 
-ASHAA: AI-Powered Zero-Touch Women Safety System
+✨ Key Features
+AI-Based Scream Detection:
+Utilizes the YAMNet (TensorFlow Lite) audio recognition model to intelligently identify distress sounds like human screams.
 
-ASHAA ek proactive digital guardian hai jo emergency situations mein bina kisi manual interaction ke madad pahunchata hai. Yeh system khaas karke un halaton ke liye design kiya gaya hai jahan victim panic ya physical restraint ki wajah se phone unlock nahi kar sakti.
-+3
+Zero-Touch Activation:
+Automatically triggers emergency protocols without requiring any screen interaction or manual input.
 
- Key Features
+Shake-to-SOS:
+In situations where the user cannot speak or shout, shaking the phone multiple times activates the emergency system.
 
-AI-Based Scream Detection: YAMNet (TensorFlow Lite) model ka use karke yeh system cheekh (screams) aur distress signals ko pehchanta hai.
-+2
+Automatic Emergency Alerts: 
+Once triggered, the system initiates a 15-second safety countdown. If not cancelled, it automatically sends SMS alerts, shares live location, and places calls to trusted contacts.
 
+Evidence Recording: 
+Inspired by an airplane's black box, the system automatically records background audio as evidence during the emergency.
 
-Zero-Touch Activation: Bina phone chhue emergency alerts trigger hote hain.
-+1
-
-
-Shake-to-SOS: Agar user chillane ki halat mein nahi hai, toh phone ko multiple times shake karne se system activate ho jata hai.
-+1
-
-
-Evidence Recording: Emergency trigger hote hi background audio record hona shuru ho jata hai (Airplane Black Box system se inspired).
-+1
-
-
-Automatic Alerts: 15-second ke countdown ke baad trusted contacts ko SMS, live location aur automatic calls chale jaate hain.
-+3
+Last Location Safety:
+If the device is forcefully switched off or damaged, the system automatically sends the last known GPS coordinates to trusted contacts.
+Triple Sensor Trigger: 
+Pressing the phone’s side or sensor button three times instantly triggers the SOS protocol.
 
 
-Last Location Safety: Phone switch off ya damage hone se pehle last known location bhej di jaati hai.
-+2
+🛠️ Tech StackCore
+Languages: Kotlin & Java.
 
+UI Framework: Jetpack Compose.
 
-Triple Sensor Trigger: Side ya sensor button ko 3 baar dabane se silently protocol start ho jata hai.
-+1
+Architecture: MVVM (Model-View-ViewModel).
 
-🛠️ Tech Stack
+Artificial Intelligence: TensorFlow Lite (YAMNet Model for audio classification).
 
-Language: Kotlin & Java 
+Location Services: Geolocator API & Google Play Services.
 
+Backend: Firebase Realtime Database & Google Firebase Services.
 
-UI Framework: Jetpack Compose 
+System Integration: Broadcast Receivers (Power-off/Screen-press) and Foreground Services.
 
+Technical Implementation 
 
-Architecture: MVVM (Model-View-ViewModel) 
+Foreground Service Persistence: 
+The app uses high-priority Foreground Services and Wakelocks to ensure 24/7 protection and prevent the OS from killing the process during Doze Mode.
 
+Hardware Resource Management:
+Implements "Stop-and-Switch" logic to manage the microphone between the AI detection model and the MediaRecorder to prevent crashes.
 
-Machine Learning: TensorFlow Lite (YAMNet Model) 
+Noise Reduction:
+AI helps differentiate between genuine distress signals and environmental noise (music, traffic), reducing false alerts.
 
-
-Database & Services: Firebase Realtime Database, Google Play Services 
-+1
-
-
-Hardware Integration: Accelerometer (Sensors), Broadcast Receivers, Foreground Services 
-+1
-
-🏗️ Architecture & Logic
-
-Foreground Service: 24/7 protection ke liye system background mein hamesha active rehta hai.
-+1
-
-
-Smart Switch Logic: AI detection aur evidence recording ke beech microphone resource conflict ko handle karne ke liye "Stop-and-Switch" logic use kiya gaya hai.
-
-
-Battery Optimization Bypass: Android Doze Mode ke restrictions ko Wakelocks ke zariye handle kiya gaya hai.
-+1
 
 🚀 Future Vision
 
-Police Station Integration: Nearest police station se auto-connect hona.
+Automated Emergency Network: 
+Integrating Google Places API to auto-connect with the nearest Police Stations for immediate dispatch.
 
+Safe Haven Ecosystem: 
+Providing an interactive map of verified 24/7 safe places like hospitals and pharmacies.
 
-Safe Haven Ecosystem: Verified safe places ka interactive map.
+Wearable Synchronization: 
+Porting the system to smartwatches for discreet triggers when the phone is out of reach.
 
-
-Wearable Support: Smartwatches par porting aur bio-sensors (heartbeat/stress) ka integration.
-
-
-
-
-"Ashaa is more than just code; it’s a promise of security." 
-+1
+Bio-Sensor Integration: 
+Utilizing heartbeat and stress sensors to detect physiological changes for 100% emergency accuracy.

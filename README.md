@@ -1,47 +1,83 @@
-# ASHAA: Empowering Safety through Intelligent Automation
-  
- A smart personal safety application that speaks for you when you can't. 
-     
- Ashaa is designed to bridge the gap in emergency response. Instead of relying on manual SOS triggers, it uses real-time sensor data and voice recognition to detect distress automatically.              
- 
- 
- Whether it’s a high-frequency scream or a specific shake pattern, Ashaa app ensures help is notified instantly.           
-  
-**4 Key Features:**
-  
- **Voice Guard (AI):** Uses a TensorFlow Lite (YAMNet) model to classify audio in real-time. It recognizes high-pitched screams and shouts with a 0.10f sensitivity threshold.                                                                          
-  
-**Motion SOS:** Integrated Accelerometer monitoring detects specific "Shake-to-SOS" patterns , ideal for situations where the screen is inaccessible.        
-  
-**Smart Panic:** A BroadcastReceiver monitors physical button patterns. Pressing the side Power Button 3 times instantly triggers the SOS sequence.     
 
- **Silent Sentinel:** A unique fail-safe that triggers an alert if the device is forced to Shutdown, sending the last known location before the power cuts off.  
-   
-**Emergency Network:** Automatically maps the nearest Police Stations and Safe Havens (Hospitals/Pharmacies) via Google Places API.   
+ASHAA: AI-Powered Zero-Touch Women Safety System
 
- **Evidence Logging:** Automatically records background audio and saves it as an encrypted .mp3 for legal evidence. 
+ASHAA ek proactive digital guardian hai jo emergency situations mein bina kisi manual interaction ke madad pahunchata hai. Yeh system khaas karke un halaton ke liye design kiya gaya hai jahan victim panic ya physical restraint ki wajah se phone unlock nahi kar sakti.
++3
 
-**Tech Stack:**
-   **Environment:** Andoid Studio
-   
-  **Language:** Kotlin / JAVA
-   
-  **UI Framework:** Jetpack Compose (Modern Declarative UI)
-       
-   **AI/ML:** TensorFlow Lite (YAMNet Audio Classification: Recognize 521+ voices) 
-   
-  **Backend:** Firebase Realtime Database 
-   
-   **Architecture:** MVVM (Model-View-ViewModel)
-   
-   **Android Core:** Foreground Services, Broadcast Receivers, System Overlays.
+ Key Features
 
- **How It Works (Architecture):**
- 
-   **Monitoring:** The app runs a persistent Foreground Service that listens to the Mic, Accelerometer, and System Intents.
-   
-   **Detection:**  If a scream or shake is detected, the Safe-Check Dialog (System Overlay) pops up.
-   
-   **Verification:** A 15-second countdown begins. If the user doesn't press "I'M SAFE," the SOS initiates.
-   
-   **Action:** The app fetches GPS Coordinates, starts Audio Recording, sends an SOS SMS to contacts, and places an Automated Call.
+AI-Based Scream Detection: YAMNet (TensorFlow Lite) model ka use karke yeh system cheekh (screams) aur distress signals ko pehchanta hai.
++2
+
+
+Zero-Touch Activation: Bina phone chhue emergency alerts trigger hote hain.
++1
+
+
+Shake-to-SOS: Agar user chillane ki halat mein nahi hai, toh phone ko multiple times shake karne se system activate ho jata hai.
++1
+
+
+Evidence Recording: Emergency trigger hote hi background audio record hona shuru ho jata hai (Airplane Black Box system se inspired).
++1
+
+
+Automatic Alerts: 15-second ke countdown ke baad trusted contacts ko SMS, live location aur automatic calls chale jaate hain.
++3
+
+
+Last Location Safety: Phone switch off ya damage hone se pehle last known location bhej di jaati hai.
++2
+
+
+Triple Sensor Trigger: Side ya sensor button ko 3 baar dabane se silently protocol start ho jata hai.
++1
+
+🛠️ Tech Stack
+
+Language: Kotlin & Java 
+
+
+UI Framework: Jetpack Compose 
+
+
+Architecture: MVVM (Model-View-ViewModel) 
+
+
+Machine Learning: TensorFlow Lite (YAMNet Model) 
+
+
+Database & Services: Firebase Realtime Database, Google Play Services 
++1
+
+
+Hardware Integration: Accelerometer (Sensors), Broadcast Receivers, Foreground Services 
++1
+
+🏗️ Architecture & Logic
+
+Foreground Service: 24/7 protection ke liye system background mein hamesha active rehta hai.
++1
+
+
+Smart Switch Logic: AI detection aur evidence recording ke beech microphone resource conflict ko handle karne ke liye "Stop-and-Switch" logic use kiya gaya hai.
+
+
+Battery Optimization Bypass: Android Doze Mode ke restrictions ko Wakelocks ke zariye handle kiya gaya hai.
++1
+
+🚀 Future Vision
+
+Police Station Integration: Nearest police station se auto-connect hona.
+
+
+Safe Haven Ecosystem: Verified safe places ka interactive map.
+
+
+Wearable Support: Smartwatches par porting aur bio-sensors (heartbeat/stress) ka integration.
+
+
+
+
+"Ashaa is more than just code; it’s a promise of security." 
++1

@@ -7,7 +7,7 @@ The project is specifically built for scenarios where a user may be unable to un
 AI-Based Scream Detection  
 Utilizes the YAMNet (TensorFlow Lite) audio recognition model to intelligently identify distress sounds like human screams.  
   
-Zero-Touch Activation:
+Zero-Touch Activation:  
 Automatically triggers emergency protocols without requiring any screen interaction or manual input.    
   
   

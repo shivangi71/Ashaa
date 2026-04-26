@@ -11,7 +11,7 @@ Zero-Touch Activation:
 Automatically triggers emergency protocols without requiring any screen interaction or manual input.
 
 Shake-to-SOS:
-In situations where the user cannot speak or shout, shaking the phone multiple times activates the emergency system.
+In situations where the user cannot speak or shout, shaking the phone multiple times activates the emergency system.  
 
 Automatic Emergency Alerts: 
 Once triggered, the system initiates a 15-second safety countdown. If not cancelled, it automatically sends SMS alerts, shares live location, and places calls to trusted contacts.      

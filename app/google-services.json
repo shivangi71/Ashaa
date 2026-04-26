@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73949599370",
+    "project_id": "ashaa-a26f2",
+    "storage_bucket": "ashaa-a26f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73949599370:android:774d8393467e4fe0277f73",
+        "android_client_info": {
+          "package_name": "com.example.ashaa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjvb4AvejMKfU6jZdTofKkaIGqPgrUlfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

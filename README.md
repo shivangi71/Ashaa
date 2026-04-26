@@ -14,7 +14,7 @@ In situations where the user cannot speak or shout, shaking the phone multiple t
 
 Automatic Emergency Alerts: 
 Once triggered, the system initiates a 15-second safety countdown. If not cancelled, it automatically sends SMS alerts, shares live location, and places calls to trusted contacts.
-  
+    
 Evidence Recording: 
 Inspired by an airplane's black box, the system automatically records background audio as evidence during the emergency.
 

@@ -15,7 +15,7 @@ Automatically triggers emergency protocols without requiring any screen interact
 Shake-to-SOS:  
 In situations where the user cannot speak or shout, shaking the phone multiple times activates the emergency system.  
 
-Automatic Emergency Alerts:     
+Automatic Emergency Alerts:         
 Once triggered, the system initiates a 15-second safety countdown. If not cancelled, it automatically sends SMS alerts, shares live location, and places calls to trusted contacts.      
     
 Evidence Recording: 

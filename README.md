@@ -9,7 +9,7 @@ Utilizes the YAMNet (TensorFlow Lite) audio recognition model to intelligently i
    
   
 Zero-Touch Activation:                
-Automatically triggers emergency protocols without requiring any screen interaction or manual input.    
+Automatically triggers emergency protocols without requiring any screen interaction or manual input.        
      
   
 Shake-to-SOS:  

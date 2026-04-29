@@ -1,6 +1,6 @@
 **ASHAA: AI-Powered Zero-Touch Women Safety System**
 
-ASHAA is an AI-powered proactive digital guardian designed to provide emergency assistance without any manual interaction in real-life danger situations.  
+ASHAA is an AI-powered proactive digital guardian designed to provide emergency assistance without any manual interaction in real-life danger situations.     
 The project is specifically built for scenarios where a user may be unable to unlock their phone or call for help due to panic or physical restraint. 
       
 Key Features       

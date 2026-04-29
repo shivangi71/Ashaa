@@ -4,7 +4,7 @@ ASHAA is an AI-powered proactive digital guardian designed to provide emergency 
 The project is specifically built for scenarios where a user may be unable to unlock their phone or call for help due to panic or physical restraint. 
          
 Key Features           
-AI-Based Scream Detection           
+AI-Based Scream Detection                
 Utilizes the YAMNet (TensorFlow Lite) audio recognition model to intelligently identify distress sounds like human screams.                
                      
 Zero-Touch Activation:                

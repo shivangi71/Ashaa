@@ -27,7 +27,7 @@ Pressing the phone’s side or sensor button three times instantly triggers the 
 
 🛠️ Tech StackCore
 Languages: Kotlin & Java.
-
+   
 UI Framework: Jetpack Compose.
 
 Architecture: MVVM (Model-View-ViewModel).

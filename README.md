@@ -1,67 +1,115 @@
-**ASHAA: AI-Powered Zero-Touch Women Safety System**   
-          
-ASHAA is an AI-powered proactive digital guardian designed to provide emergency assistance without any manual interaction in real-life danger situations.                  
-The project is specifically built for scenarios where a user may be unable to unlock their phone or call for help due to panic or physical restraint.       
-                                                
-Key Features                                                                                                             
-AI-Based Scream Detection                                                                                                                                                        
-Utilizes the YAMNet (TensorFlow Lite) audio recognition model to intelligently identify distress sounds like human screams.                                                                                                                                           
-                                                                                              
-Zero-Touch Activation:                                                                                                             
-Automatically triggers emergency protocols without requiring any screen interaction or manual input.                                                     
-                                       
-Shake-to-SOS:                                       
-In situations where the user cannot speak or shout, shaking the phone multiple times activates the emergency system.       
-   
-Automatic Emergency Alerts:         
-Once triggered, the system initiates a 15-second safety countdown. If not cancelled, it automatically sends SMS alerts, shares live location, and places calls to trusted contacts.      
-       
-Evidence Recording: 
-Inspired by an airplane's black box, the system automatically records background audio as evidence during the emergency.
+````markdown
+# ASHAA — AI-Powered Women Safety Android Application
 
-Last Location Safety:
-If the device is forcefully switched off or damaged, the system automatically sends the last known GPS coordinates to trusted contacts.
-Triple Sensor Trigger: 
-Pressing the phone’s side or sensor button three times instantly triggers the SOS protocol.
+ASHAA is an AI-powered proactive women safety system designed to provide emergency assistance without requiring manual interaction during dangerous situations.
 
+The application is built for real-world emergency scenarios where a user may be unable to unlock their phone or call for help due to panic, restraint, or physical danger.
 
-🛠️ Tech StackCore
-Languages: Kotlin & Java.
-   
-UI Framework: Jetpack Compose.
+---
 
-Architecture: MVVM (Model-View-ViewModel).
+## 🚀 Features
 
-Artificial Intelligence: TensorFlow Lite (YAMNet Model for audio classification).
+### 🔊 AI-Based Scream Detection
+Utilizes the **YAMNet TensorFlow Lite model** to intelligently detect distress sounds such as human screams while reducing false alerts caused by environmental noise.
 
-Location Services: Geolocator API & Google Play Services.
+### 🆘 Hands-Free SOS Activation
+Automatically triggers emergency protocols without requiring screen interaction or manual input.
 
-Backend: Firebase Realtime Database & Google Firebase Services.
+### 📳 Shake-to-SOS
+Detects multiple phone shakes to activate the emergency system in situations where the user cannot speak or shout.
 
-System Integration: Broadcast Receivers (Power-off/Screen-press) and Foreground Services.
+### 📍 Live Location Sharing
+Automatically sends real-time GPS coordinates to trusted contacts using Google Maps integration.
 
-Technical Implementation 
+### 📞 Emergency Calling & SMS Alerts
+Initiates emergency calls and sends SMS alerts after a safety countdown if the alert is not cancelled.
 
-Foreground Service Persistence: 
-The app uses high-priority Foreground Services and Wakelocks to ensure 24/7 protection and prevent the OS from killing the process during Doze Mode.
+### 🎙️ Digital Blackbox Recording
+Records background audio during emergency situations to preserve evidence and improve incident tracking.
 
-Hardware Resource Management:
-Implements "Stop-and-Switch" logic to manage the microphone between the AI detection model and the MediaRecorder to prevent crashes.
+### ⚡ Last Location Safety
+Automatically shares the device's final known location if the phone is forcefully switched off or damaged.
 
-Noise Reduction:
-AI helps differentiate between genuine distress signals and environmental noise (music, traffic), reducing false alerts.
+### 🔘 Triple-Press SOS Trigger
+Pressing the phone’s side/sensor button three times instantly activates the SOS workflow.
 
+---
 
-🚀 Future Vision
+# 🛠️ Tech Stack
 
-Automated Emergency Network: 
-Integrating Google Places API to auto-connect with the nearest Police Stations for immediate dispatch.
+| Category | Technologies |
+|----------|--------------|
+| Languages | Kotlin, Java |
+| UI Framework | Jetpack Compose |
+| Architecture | MVVM |
+| AI/ML | TensorFlow Lite (YAMNet Model) |
+| Backend | Firebase Realtime Database |
+| Location Services | Google Play Services, Geolocator API |
+| Android Services | Foreground Services, Broadcast Receivers |
+| Development Tools | Android Studio, Firebase Console |
 
-Safe Haven Ecosystem: 
-Providing an interactive map of verified 24/7 safe places like hospitals and pharmacies.
+---
 
-Wearable Synchronization: 
-Porting the system to smartwatches for discreet triggers when the phone is out of reach.
+# ⚙️ Technical Implementation
 
-Bio-Sensor Integration: 
-Utilizing heartbeat and stress sensors to detect physiological changes for 100% emergency accuracy.
+### Foreground Service Persistence
+Implemented high-priority Foreground Services and Wakelocks to maintain continuous emergency monitoring during Android Doze Mode.
+
+### Hardware Resource Management
+Designed a "Stop-and-Switch" microphone handling mechanism to safely manage resources between AI audio detection and MediaRecorder functionality.
+
+### Noise Reduction System
+Integrated AI-assisted filtering to distinguish genuine distress sounds from background noise such as traffic or music.
+
+### Real-Time Emergency Workflow
+Implemented automated emergency pipelines:
+
+Scream Detection → SOS Trigger → GPS Fetch → SMS/Call → Firebase Logging
+
+---
+
+# 📱 Screenshots
+
+> Add application screenshots here
+
+- Home Screen
+- Emergency Alert Screen
+- Live Location Interface
+- SOS Activation Workflow
+
+---
+
+# 🎥 Demo
+
+[Watch Demo Video](https://drive.google.com/file/d/1x9qnD0nCPT43GkKIQrDKD84k7LMzG-7e/view?usp=drive_link)
+
+---
+
+# 📦 Installation
+
+```bash
+git clone https://github.com/shivangi71/Ashaa.git
+````
+
+Open the project in Android Studio and run the application on a physical Android device.
+
+---
+
+# 🔮 Future Enhancements
+
+* Smartwatch integration for discreet emergency triggering
+* Nearby police station auto-alert system
+* AI-powered stress and heartbeat monitoring
+* Verified safe-zone navigation system
+
+---
+
+# 👩‍💻 Author
+
+**Shivangi Sharma**
+
+* GitHub: https://github.com/shivangi71
+* LinkedIn: https://linkedin.com/in/sshivangisharma71
+
+```
+```

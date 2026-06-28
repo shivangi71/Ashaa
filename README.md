@@ -67,27 +67,25 @@ Implemented automated emergency pipelines:
 Scream Detection → SOS Trigger → GPS Fetch → SMS/Call → Firebase Logging
 
 ---
-```markdown id="gh1"
 # 📱 Screenshots
 
-## Home Page
+## 🏠 Home Page
 ![Home Page](home_page.jpeg)
 
-## Dashboard
+## 📊 Dashboard
 ![Dashboard](dashboard.jpeg)
 
-## Emergency Contacts
+## 📞 Emergency Contacts
 ![Emergency Contacts](contacts_dashboard.jpeg)
 
-## Evidence Section
+## 🎙️ Evidence Section
 ![Evidence Section](evidence_section.jpeg)
 
-## Features Dashboard
+## ⚡ Features Dashboard
 ![Features](feature_dashboard.jpeg)
 
-## Profile Section
+## 👤 Profile Section
 ![Profile](profile_section.jpeg)
-```
 ---
 
 # 🎥 Demo

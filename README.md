@@ -8,7 +8,7 @@ The application is built for real-world emergency scenarios where a user may be 
 ---
 
 ## 🚀 Features
-
+   
 ### 🔊 AI-Based Scream Detection
 Utilizes the **YAMNet TensorFlow Lite model** to intelligently detect distress sounds such as human screams while reducing false alerts caused by environmental noise.
 

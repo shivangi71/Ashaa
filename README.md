@@ -59,7 +59,7 @@ Implemented high-priority Foreground Services and Wakelocks to maintain continuo
 Designed a "Stop-and-Switch" microphone handling mechanism to safely manage resources between AI audio detection and MediaRecorder functionality.
 
 ### Noise Reduction System
-Integrated AI-assisted filtering to distinguish genuine distress sounds from background noise such as traffic or music.
+Integrated AI-assisted filtering to distinguish genuine distress sounds from background noise such as traffic or music.  
 
 ### Real-Time Emergency Workflow
 Implemented automated emergency pipelines:
